@@ -1,0 +1,62 @@
+Commit your changes:
+
+First, make sure you have committed your changes using the git commit command. For example:
+
+git add .
+git commit -m "Your commit message here"
+
+
+
+################################
+
+Push to the remote repository:
+
+After committing your changes, you can use the git
+push command to push your changes to the remote repository. The basic syntax is:
+
+>>>>   git push [remote] [branch]
+>>>>   examle git push origin main
+
+Replace [remote] with the name of your remote repository (usually "origin") and
+[branch] with the branch you want to push (e.g., "main" or "master").'
+
+#####################################
+If it's your first time pushing to this branch, you may need to set the upstream branch:
+
+git push -u origin main
+####################################################
+Commit your changes:
+
+First, make sure you have committed your changes using the git commit command. For example:
+
+git add .
+git commit -m "Your commit message here"
+
+####
+Push to the remote repository:
+
+After committing your changes, you can use the git push command to push
+your changes to the remote repository. The basic syntax is:
+
+git push [remote] [branch]
+Replace [remote] with the name of your remote repository (usually "origin") and
+[branch] with the branch you want to push (e.g., "main" or "master").
+
+git push origin main
+
+
+##############################
+If it's your first time pushing to this branch, you may need to set the upstream branch:
+
+git push -u origin main
+#########################
+Repository Initialization:
+
+Make sure you have initialized your local repository and linked it to the remote repository.
+
+
+git init
+git remote add origin git@github.com:mayurbaviskarnsk/python_concepts.git
+
+
+########################################################################################################
